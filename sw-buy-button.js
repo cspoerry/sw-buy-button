@@ -12,9 +12,9 @@ document.addEventListener('DOMContentLoaded', function () {
   function loadScript() {
     var script = document.createElement('script');
     script.async = true;
-    script.src = 'https://cdn.shopify.com/shopifycloud/shopify-buy-button/v2/latest/shopify-buy.umd.min.js';
+    script.src = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
     script.onload = ShopifyBuyInit;
-    document.head.appendChild(script);
   }
 
   function ShopifyBuyInit() {
