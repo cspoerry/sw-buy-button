@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     ShopifyBuy.UI.onReady(client).then(function (ui) {
       ui.createComponent('product', {
-        id: '1744023946049',
+        id: '9705573876045',
         node: document.getElementById('product-component-1744023946049'),
         moneyFormat: '%24%7B%7Bamount%7D%7D',
         options: {
