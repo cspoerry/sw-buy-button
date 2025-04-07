@@ -111,7 +111,7 @@ document.addEventListener('DOMContentLoaded', function () {
             "product": {
               "background-color": "#ffffff",
               "text-align": "center",
-              "@media (min-width: 601pxintendo": {
+              "@media (min-width: 601px)": {
                 "max-width": "100%",
                 "margin-left": "0px",
                 "margin-bottom": "0px"
